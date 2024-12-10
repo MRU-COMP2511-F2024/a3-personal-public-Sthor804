@@ -1,0 +1,87 @@
+
+/* Main Content */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Adding space between the sections */
+}
+
+/* Container for individual artifact sections */
+.artifact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+/* Styling for the intro section */
+.intro {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styles */
+.intro h2 {
+    font-family: 'Playfair Display', serif;
+    color: #7a5252;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.intro h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+ p {
+    margin-bottom: 2rem;  /* Increased space between paragraphs */
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 1rem;
+ }
+         body {
+            font-family: Arial, sans-serif;
+        }
+        fieldset {
+            margin-bottom: 20px;
+            padding: 1px;
+            border: 1px solid #000;
+        }
+        legend {
+            font-weight: bold;
+        }
+        dl {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            align-items: center;
+            grid-gap: 10px;
+        }
+        dt {
+            text-align: right;
+        }
+        dd {
+            margin: 0;
+        }
+        label {
+            margin-right: 10px;
+        }
+        input[type="text"], input[type="email"], textarea {
+            width: 50%;
+        }
+        textarea {
+            resize: none;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        button {
+            margin-right: 10px;
+        }

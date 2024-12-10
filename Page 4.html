@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My ePortfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Style4.css">
+
+</head>
+
+<nav>
+    <ul>
+    <li><a class = "active" href="Page 4.html"> Home</a></li>
+    <li><a href="Page 2.html"> About Me  </a></li>
+    <li><a href="Page 3.html"> Interests </a></li>
+    <li><a href="Page 4.html"> Projects + Skills </a></li>
+    <li><a href="Page 5.html"> Projects + Skills continued </a></li>
+    <li><a href="Page 6.html"> Contact Me</a></li>
+    </ul>
+
+</nav>
+<body>
+    <header>
+        <h1>Samantha's COMP 2511 ePortfolio</h1>
+    </header>
+    
+    
+    <main>
+        
+        <div class="intro">
+            <h2>Projects + Skills</h2>
+        <h2> Artifacrt 1 - "Black jack game project in Java"</h2>
+            <p>
+                I developed a Blackjack game using Java. The goal was to simulate a basic card game where the user plays against the dealer. The game follows the standard rules of Blackjack, where the player aims to get as close to 21 as possible without exceeding it. The player and dealer are each dealt two cards, with the option for the player to "hit" or "stand" to improve their hand.
+            </p> 
+            <h4>Card and Deck Classes:  </h4>
+
+            <p> 
+
+                
+                These classes represent the individual cards and the deck, respectively. The cards have a rank and suit, while the deck is responsible for shuffling and dealing the cards.
+                </p>
+                <p> 
+Game Logic: The core of the game, including the logic to compare hands, determine if the player or dealer has won, and manage user interactions (such as prompting for hits or stands).
+</p>
+<br>
+<p> 
+User Interface: A simple text-based interface using System.out.print() and Scanner for input, allowing the player to interact with the game through the console.
+</p>
+
+<h4> Reflections on Design Choices</h4>
+<p> 
+One of my key decisions was implementing the Deck and Card classes separately. This made the deck shuffling and dealing process more modular and reusable. Additionally, by using an array of cards for the dealer and player hands, I could easily compare the hands and calculate their totals.
+</p> 
+<br> 
+
+<h3>Challenges and How I Overcame Them</h3>
+
+<p> 
+Shuffling the Deck: Initially, I struggled with creating a proper shuffle algorithm. I researched Fisher-Yates shuffle and implemented it, which worked well for randomizing the deck.
+</p>
+<p>
+<br> 
+Game Flow: The flow of the game, where the player can hit or stand, required careful control of the game state. I had to ensure that after the player’s turn, the dealer would automatically play their hand, following the Blackjack rules (dealer must hit if the total is less than 17).
+</p>
+<br>  
+<p> 
+Testing: A significant challenge was testing the game to ensure all edge cases were covered (e.g., dealer's hand totaling over 21, or when the player wins). To address this, I created a series of test cases to simulate various game scenarios.
+</p>
+<br> 
+Code Snippets
+Here are a few code snippets from the project that highlight key learning moments:
+Deck Shuffling : add pic
+Ace Handling (Adjusting Hand Value):
+</p>
+
+<h3>  Workflow and Successes</h3>
+<p> 
+Planning: Before diving into the code, I spent time sketching out the game’s flow and defining each class's responsibility. This helped me break the project into manageable parts and avoid getting overwhelmed.
+Version Control: I used Git to track changes and manage versions, ensuring that I could easily revert to previous versions if something went wrong.
+Testing: After the initial implementation, I tested the game thoroughly with various scenarios (e.g., the dealer winning with a total of 21, handling ties, etc.), which ensured the game logic was correct.
+Conclusion
+This project taught me a lot about object-oriented design and game development in Java. I gained practical experience with classes, methods, arrays, and randomization. While the game’s text-based interface is simple, I feel confident that I can now extend this project with a graphical user interface (GUI) or even explore multiplayer capabilities in future iterations.
+</p>
+        </div>
+        <h2> Artifact 2: ePortfolio Project  </h2>
+<h3>Project Overview: </h3>
+<p> The creation of this ePortfolio is a key artifact for demonstrating the web design and development skills I’ve learned throughout COMP 2511. This project serves as a comprehensive showcase of my academic achievements, personal interests, and technical skills, and it is designed to be fully responsive and accessible. The ePortfolio includes various pages such as an introduction (Home), about me, projects, skills, interests, and a contact page, each reflecting the core concepts covered in the course.
+</p>
+<h3>Technologies Used:</h3>
+<ul>
+    <li><strong>HTML:</strong> Utilized for structuring the content and creating semantic elements like headings, paragraphs, and navigation.</li>
+    <li><strong>CSS:</strong> Applied to style the pages, ensuring consistency in fonts, colors, margins, and padding. I used both custom styles and CSS Flexbox and Grid to create a responsive layout.</li>
+    <li><strong>JavaScript:</strong> Integrated basic JavaScript for form validation on the Contact page, ensuring proper user input and enhancing interactivity.</li>
+    <li><strong>Bootstrap:</strong> Implemented Bootstrap for responsive grid layout and UI components like buttons, cards, and navigation. This allowed me to focus on the content while ensuring a polished and responsive design.</li>
+    <li><strong>GitHub Pages:</strong> Deployed the ePortfolio on GitHub Pages to make it publicly accessible and showcase my work online.</li>
+</ul>
+<h3> Reflections on Design Choices:</h3>
+<p>  Responsive Design: One of the main goals for this ePortfolio was to ensure that it is accessible on a variety of devices, from desktops to mobile phones. To achieve this, I focused on a mobile-first design approach using CSS media queries to adjust the layout at different breakpoints. This was a challenge at first, especially in terms of maintaining readability and usability across smaller screens, but by using Flexbox and CSS Grid, I was able to create a fluid layout that adapts well to various screen sizes.
+</p>
+<p> 
+Navigation and User Experience:
+I paid close attention to the navigation structure to ensure that users could easily explore the website. The navigation bar is consistent across all pages, allowing for easy movement between sections. I also made sure that links were clear and accessible, with proper contrast and hover effects for better interaction. The goal was to make the user experience as intuitive as possible, especially for those who may be visiting my portfolio for the first time.
+</p>
+<p> 
+Color Scheme and Typography:
+I chose a soft pink and brown color scheme for the website to reflect my personal style. This color palette is warm and inviting, which I feel aligns well with the purpose of showcasing my work in a friendly and approachable way. For typography, I used Google Fonts for both serif and sans-serif fonts to create a balance between elegance and readability.
+</p>
+<p> 
+Accessibility:
+Ensuring that the ePortfolio is accessible was a priority. I followed best practices such as:
+<ul>
+    <li>Providing alt text for all images.</li>
+    <li>Ensuring high color contrast for readability.</li>
+    <li>Adding keyboard navigation support and skip-to-content links. This will ensure that the website is usable by people with disabilities, which is an important aspect of modern web design.</li>
+</ul>
+<p>
+   <h3><strong>Challenges and How I Overcame Them:</strong> </h3> 
+</p>
+<ul>
+    <li><strong>Responsive Layouts:</strong> Initially, creating a layout that was both aesthetically pleasing and responsive across all devices was challenging. I faced issues with some elements not resizing correctly on smaller screens. To overcome this, I used CSS media queries and Flexbox to ensure elements adjusted dynamically. Testing on various screen sizes and devices was essential for refining the design.</li>
+    <li><strong>Integrating Bootstrap:</strong> While Bootstrap helped speed up development, I initially struggled with customizing its default styles to fit my design vision. I learned to modify Bootstrap components through custom CSS, ensuring the elements fit seamlessly with the overall aesthetic of the site.</li>
+    <li><strong>JavaScript Form Validation:</strong> Implementing form validation on the Contact page was more challenging than anticipated. I initially ran into issues with input fields not being properly validated before submission. After researching and experimenting, I successfully integrated JavaScript to validate email and message fields, providing real-time feedback to users.</li>
+</ul>
+
+<h3> <strong>Workflow and Successes:</strong></h3>
+
+<p>
+    <br> <strong> Planning: </strong> The development process began with detailed planning, including wireframes and a sitemap to visualize the structure and layout of each page. This helped in defining a clear path for development and ensured all required sections (Home, About, Projects, etc.) were covered.
+</p>
+<p>
+
+    <br> Version Control: I used Git throughout the project to keep track of changes and ensure my code remained organized. This also allowed me to experiment with new ideas without worrying about losing progress.
+</p>
+<p>
+
+    <br> Testing: I performed thorough testing on different browsers and devices to ensure that the ePortfolio was functional and visually appealing everywhere. Tools like Google Chrome Developer Tools helped me test responsiveness, and I ensured that each page loaded correctly with all content accessible.
+</p>
+
+<p> 
+    Conclusion: 
+    Building this ePortfolio was a valuable learning experience that allowed me to apply and refine the skills I gained in COMP 2511. It helped me deepen my understanding of web development fundamentals, including HTML, CSS, and JavaScript, and also introduced me to the practical aspects of deploying a live website using GitHub Pages. Overall, this project not only serves as a showcase of my work but also represents my growth as a web developer.
+    In the future, I plan to further enhance this ePortfolio with more interactive features.
+</p>
+</div>
+    </main>
+    <footer>
+        &copy; 2024 Samantha. Built with ❤. <a href="contact.html">Contact Me</a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+.flex-container {
+    display: flex;                /* Enable Flexbox */
+    justify-content: center;      /* Center the content horizontally */
+    align-items: center;          /* Align the content vertically */
+    height: 300px;                /* Set a height to see the alignment */
+    padding: 20px;                /* Add some padding around the container */
+    background-color: #FADADD;    /* Soft pink background for the container */
+    border-radius: 10px;          /* Optional: rounded corners for the container */
+    box-sizing: border-box;  
+    /* Include padding in the element's total width */
+}
+p {
+
+    display: block;                     /* Makes <p> a block-level element */
+    margin-top: 20px;                   /* Adds space above each paragraph */
+    padding: 10px;                      /* Adds padding inside the paragraph */
+    text-align: center;   
+    width:100%;  
+            
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption Text */
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 8px 12px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+img {
+    width: 40%;           /* Make the image stretch to the full width of its container */
+    height: auto;          /* Maintain aspect ratio */
+    border-radius: 8px;    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow around the image */
+    transition: transform 0.3s ease; /* Smooth transition for zoom effect */
+    
+}
+
+/* Hover effect to zoom in */
+img:hover {
+    transform: scale(1.05); /* Zoom in the image on hover */
+}
+
+
